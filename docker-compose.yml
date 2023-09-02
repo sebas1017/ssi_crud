@@ -1,0 +1,7 @@
+version: '3'
+services:
+  health_pacients_crud:
+    build: ./backend
+    ports:
+      - "5001:5001"
+    container_name: health_pacients_crud
